@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 20% 96%;
+    --foreground: 220 20% 10%;
+
+    --card: 220 20% 100%;
+    --card-foreground: 220 20% 10%;
+ 
+    --popover: 220 20% 100%;
+    --popover-foreground: 220 20% 10%;
+ 
+    --primary: 260 100% 65%;
+    --primary-foreground: 0 0% 100%;
+ 
+    --secondary: 220 15% 90%;
+    --secondary-foreground: 220 15% 20%;
+ 
+    --muted: 220 15% 90%;
+    --muted-foreground: 220 15% 45%;
+ 
+    --accent: 300 100% 60%;
+    --accent-foreground: 0 0% 100%;
+ 
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 220 20% 85%;
+    --input: 220 20% 85%;
+    --ring: 260 100% 65%;
+ 
+    --radius: 0.75rem;
+  }
+ 
+  .dark {
+    --background: 265 40% 5%;
+    --foreground: 265 10% 95%;
+
+    --card: 265 40% 10%;
+    --card-foreground: 265 10% 95%;
+ 
+    --popover: 265 40% 5%;
+    --popover-foreground: 265 10% 95%;
+ 
+    --primary: 300 100% 65%; /* Vibrant Pink */
+    --primary-foreground: 265 10% 5%;
+ 
+    --secondary: 265 30% 15%;
+    --secondary-foreground: 265 10% 95%;
+ 
+    --muted: 265 20% 15%;
+    --muted-foreground: 265 10% 65%;
+ 
+    --accent: 260 100% 70%; /* Vibrant Purple */
+    --accent-foreground: 265 10% 95%;
+ 
+    --destructive: 0 62.8% 45%;
+    --destructive-foreground: 0 0% 98%;
+ 
+    --border: 265 30% 25%;
+    --input: 265 30% 20%;
+    --ring: 300 100% 65%;
+  }
+}
+ 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    @apply scroll-smooth;
+  }
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 10% 20%, hsl(var(--accent) / 0.1), transparent 30%),
+                radial-gradient(circle at 90% 80%, hsl(var(--primary) / 0.1), transparent 30%);
+    z-index: -1;
+    pointer-events: none;
+  }
+}
+
+@layer utilities {
+  .animated-gradient-text {
+    background: linear-gradient(90deg, hsl(var(--primary)), hsl(var(--accent)), hsl(var(--primary)));
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-animation 4s ease infinite;
+  }
+
+  @keyframes gradient-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  .glassmorphism {
+    @apply bg-card/50 backdrop-blur-lg border border-white/10;
+  }
+}
