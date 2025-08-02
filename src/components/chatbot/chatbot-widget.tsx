@@ -27,7 +27,7 @@ export default function ChatbotWidget() {
       setMessages([
         {
           role: 'bot',
-          text: "Hello! I'm Kitty, an AI assistant creadetd by Tanushree. Ask me anything about her.",
+          text: "Hello! I'm Kitty, an AI assistant created by Tanushree. Ask me anything about her.",
         },
       ]);
     }

@@ -47,18 +47,18 @@ export default function Contact() {
                 <Mail className="w-6 h-6 text-primary"/>
                 <span>sarkartanushree287@gmail.com</span>
             </Link>
-             <Link href="https://www.linkedin.com/in/tanushree-sarkar-454559253/" target="_blank" className="flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors">
+             <Link href="https://www.linkedin.com/in/tanushree-sarkar-32635624b/" target="_blank" className="flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors">
                 <Linkedin className="w-6 h-6 text-primary"/>
-                <span>linkedin.com/in/tanushree-sarkar-454559253</span>
+                <span>Linkedin.com</span>
             </Link>
-             <Link href="https://github.com/Tanushree287" target="_blank" className="flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors">
+             <Link href="https://github.com/TanushreeSarkar" target="_blank" className="flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors">
                 <Github className="w-6 h-6 text-primary"/>
-                <span>github.com/Tanushree287</span>
+                <span>Github.com</span>
             </Link>
           </div>
           <div className="mt-8">
             <Button asChild size="lg" className="w-full md:w-auto">
-                <a href="/resume.pdf" download="Tanushree_Sarkar_Resume.pdf">
+                <a href="/Tanushree_Sarkar_Resume.pdf" download="Tanushree_Sarkar_Resume.pdf">
                     Download Resume
                 </a>
             </Button>
@@ -84,7 +84,7 @@ export default function Contact() {
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="your.email@example.com"
+              placeholder="sarrkartanushree287@gmail.com"
               required
               disabled={isLoading}
             />

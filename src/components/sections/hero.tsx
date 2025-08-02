@@ -20,7 +20,7 @@ const Hero = () => {
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto mb-8">
           <Typewriter
-              words={['Full-Stack Developer', 'Data Viz Enthusiast', 'AI Learner']}
+              words={['Full-Stack Developer', 'Data Viz Enthusiast', 'AI/ML Explorer','Cloud & Firebase Practitioner','Passionate Coder & Constant Learner']}
               loop={true}
               cursor
               cursorStyle='_'
@@ -31,17 +31,17 @@ const Hero = () => {
         </p>
         <div className="flex gap-4 justify-center flex-wrap">
           <Button asChild size="lg" className="bg-primary/90 hover:bg-primary">
-            <a href="/resume.pdf" download="Tanushree_Sarkar_Resume.pdf">
+            <a href="/Tanushree_Sarkar_Resume.pdf" download="Tanushree_Sarkar_Resume.pdf">
               <Download className="mr-2" /> Resume
             </a>
           </Button>
           <Button asChild variant="outline" size="lg">
-            <Link href="https://www.linkedin.com/in/tanushree-sarkar-454559253/" target="_blank">
+            <Link href="https://www.linkedin.com/in/tanushree-sarkar-32635624b/" target="_blank">
               <Linkedin className="mr-2"/> LinkedIn
             </Link>
           </Button>
           <Button asChild variant="outline" size="lg">
-            <Link href="https://github.com/Tanushree287" target="_blank">
+            <Link href="https://github.com/TanushreeSarkar" target="_blank">
                 <Github className="mr-2"/> GitHub
             </Link>
           </Button>

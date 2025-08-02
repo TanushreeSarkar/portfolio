@@ -5,6 +5,9 @@ import { Toaster } from '@/components/ui/toaster';
 export const metadata: Metadata = {
   title: 'Tanushree Sarkar | Developer Portfolio',
   description: 'Full-Stack Developer | Data Viz Enthusiast | AI Learner',
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({

@@ -42,13 +42,13 @@ export default function Footer() {
             <h4 className="font-semibold text-lg text-foreground">Connect With Me</h4>
             <div className="flex items-center gap-4">
               <Button variant="ghost" size="icon" asChild>
-                <Link href="https://github.com/Tanushree287" target="_blank" rel="noopener noreferrer">
+                <Link href="https://github.com/TanushreeSarkar" target="_blank" rel="noopener noreferrer">
                   <Github className="h-6 w-6 text-muted-foreground hover:text-primary transition-colors" />
                   <span className="sr-only">GitHub</span>
                 </Link>
               </Button>
               <Button variant="ghost" size="icon" asChild>
-                <Link href="https://www.linkedin.com/in/tanushree-sarkar-454559253/" target="_blank" rel="noopener noreferrer">
+                <Link href="https://www.linkedin.com/in/tanushree-sarkar-32635624b/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-6 w-6 text-muted-foreground hover:text-primary transition-colors" />
                   <span className="sr-only">LinkedIn</span>
                 </Link>
@@ -63,7 +63,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-border/20 mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} Tanushree Sarkar. All rights reserved. Designed with passion.</p>
+          <p>© {new Date().getFullYear()} Tanushree Sarkar. All rights reserved. Designed with passion and love by TanushreeSarkar.</p>
         </div>
       </div>
     </footer>

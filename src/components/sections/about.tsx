@@ -7,7 +7,7 @@ export default function About() {
       <div className="grid md:grid-cols-3 gap-12 items-center">
         <div className="md:col-span-1">
           <Image
-            src="https://placehold.co/400x400.png"
+            src="/portfoliopic.jpg"
             alt="Tanushree Sarkar"
             width={400}
             height={400}

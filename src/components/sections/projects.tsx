@@ -11,55 +11,55 @@ const projects = [
   {
     name: 'Uplifters.Net',
     description: 'A donation and volunteer platform featuring a theme toggle, gallery popups, and animated counters. Achieved 35% faster UX and 40% code optimization.',
-    image: 'https://placehold.co/600x400.png',
+    image: '/uplifters.jpg',
     stack: ['HTML', 'CSS', 'JavaScript'],
-    link: '#',
-    github: '#',
+    link: 'https://uplifters-net.vercel.app/',
+    github: 'https://github.com/TanushreeSarkar/uplifters-net',
     aiHint: 'charity website community'
   },
   {
     name: 'EventEase Dashboard',
     description: 'Tableau dashboard for real-time event analytics. Integrates with Google Sheets with <2s refresh latency and supports filtering for over 500 data points.',
-    image: 'https://placehold.co/600x400.png',
+    image: '/eventease.jpg',
     stack: ['Tableau', 'Google Sheets'],
-    link: '#',
-    github: null,
+    link: 'https://public.tableau.com/app/profile/tanushree.sarkar7957/viz/Event-Ease/EventEaseDashboard',
+    github: 'https://github.com/TanushreeSarkar/EventEase',
     aiHint: 'analytics dashboard chart'
   },
   {
     name: 'CRM Sales Pipeline API',
     description: 'A robust Spring Boot backend with 30+ REST APIs for a CRM. Features Firebase authentication, handles 500+ records, and offers analytics with optimized query speed by 40%.',
-    image: 'https://placehold.co/600x400.png',
+    image: '/CRM.jpg',
     stack: ['Spring Boot', 'Java', 'Firebase', 'REST'],
     link: null,
-    github: '#',
+    github: 'https://github.com/TanushreeSarkar/CRM-Sales-Pipeline',
     aiHint: 'api code backend'
   },
    {
     name: 'Portfolio Website',
     description: 'My personal portfolio website built with Next.js and Tailwind CSS, featuring a modern design with glassmorphism and a theme toggle.',
-    image: 'https://placehold.co/600x400.png',
+    image: '/intro.jpg',
     stack: ['Next.js', 'React', 'Tailwind CSS', 'Framer Motion'],
-    link: '#',
-    github: '#',
+    link: 'https://portfolio-tanushree-sarkar.vercel.app/',
+    github: 'https://github.com/TanushreeSarkar/portfolio',
     aiHint: 'portfolio website code'
   },
   {
-    name: 'AI Resume Chatbot',
+    name: 'Hire-Light ATScore (AI Resume Chatbot)',
     description: 'A Genkit-powered AI chatbot trained on my resume, capable of answering questions about my skills and experience.',
-    image: 'https://placehold.co/600x400.png',
+    image: '/ATScore.png',
     stack: ['Genkit', 'Next.js', 'AI'],
-    link: '#',
-    github: '#',
+    link: 'https://hire-light-atscore.vercel.app/',
+    github: 'https://github.com/TanushreeSarkar/Hire-Light-ATScore',
     aiHint: 'ai chatbot interface'
   },
   {
-    name: 'Blockchain-based ML Platform',
+    name: 'Blockchain-based ML Platform (Ongoing)',
     description: 'Ongoing project to develop a decentralized platform for training and deploying machine learning models using blockchain for security and transparency.',
-    image: 'https://placehold.co/600x400.png',
+    image: '/blockchain.jpg',
     stack: ['Blockchain', 'Python', 'TensorFlow', 'Solidity'],
     link: null,
-    github: '#',
+    github: 'https://github.com/TanushreeSarkar?tab=repositories',
     aiHint: 'blockchain machine learning'
   }
 ];

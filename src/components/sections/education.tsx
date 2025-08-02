@@ -3,7 +3,7 @@ import { GraduationCap, School } from 'lucide-react';
 
 const education = [
   {
-    degree: 'B.Tech in Computer Science & Engineering',
+    degree: 'B.Tech in Computer Science & Engineering AIML',
     institution: 'Pranveer Singh Institute of Technology, Kanpur',
     period: '2022 – 2026',
     score: 'CGPA: 7.5',
