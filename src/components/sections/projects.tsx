@@ -49,8 +49,8 @@ const projects = [
     description: 'A Genkit-powered AI chatbot trained on my resume, capable of answering questions about my skills and experience.',
     image: '/ATScore.png',
     stack: ['Genkit', 'Next.js', 'AI'],
-    link: 'https://hire-light-atscore.vercel.app/',
-    github: 'https://github.com/TanushreeSarkar/Hire-Light-ATScore',
+    link: 'https://hire-light-ats-system.vercel.app/',
+    github: 'https://github.com/TanushreeSarkar/HireLightATS',
     aiHint: 'ai chatbot interface'
   },
   {
