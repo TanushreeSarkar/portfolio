@@ -78,9 +78,10 @@ Projects:
 - CRM API: Developed a Spring Boot backend with 25+ REST APIs and MySQL, boosting query speed by 35% with caching.
 
 Ongoing Projects:
-- AI Resume ATScore(Ongoing)
+- AI Resume ATScore(Almost completed)
 - Blockchain(Ongoing)
 - Google CLoud BigQuery Projects (Ongoing)
+- AI Based Mock Interview Evaluator using Computer Vision (Ongoing)
 
 Certifications:
 - Google Cloud: Generative AI Basics, Cloud Analytics, Data Analytics
