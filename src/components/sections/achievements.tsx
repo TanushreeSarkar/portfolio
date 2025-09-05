@@ -9,11 +9,23 @@ const achievements = [
   {
     category: 'Certifications',
     items: [
-      {
+{
         title: 'Google Cloud Certified: Gemini for Data Scientist and Analyst',
         icon: Award,
         source: 'Google Cloud',
         link: 'https://www.cloudskillsboost.google/public_profiles/0135c11e-8fdb-4b6d-adb4-d16b239dee65/badges/14439287',
+      },
+      {
+        title: 'Generative AI',
+        icon: Award,
+        source: 'Google Cloud',
+        link: 'https://www.cloudskillsboost.google/public_profiles/0135c11e-8fdb-4b6d-adb4-d16b239dee65/badges/14036856',
+      },
+      {
+        title: 'Google Cloud Analytics',
+        icon: Award,
+        source: 'Google Cloud',
+        link: 'https://www.cloudskillsboost.google/public_profiles/0135c11e-8fdb-4b6d-adb4-d16b239dee65/badges/14040407',
       },
       {
         title: 'Data Analytics on Google Cloud',
@@ -22,22 +34,28 @@ const achievements = [
         link: 'https://www.cloudskillsboost.google/public_profiles/82b9fa63-7e03-45e1-83ad-0170092342c2/badges/6278695',
       },
       {
-        title: 'Generative AI',
-        icon: Award,
-        source: 'Google',
-        link: 'https://www.cloudskillsboost.google/public_profiles/82b9fa63-7e03-45e1-83ad-0170092342c2/badges/6277845',
-      },
-      {
-        title: 'Azure AI Fundamentals',
-        icon: Award,
-        source: 'Microsoft',
-        link: 'https://www.linkedin.com/in/tanushree-sarkar-32635624b/details/certifications/',
-      },
-      {
-        title: 'JavaScript Specialist Certification',
+        title: 'JavaScript Specialist',
         icon: Star,
         source: 'HackerRank',
         link: 'https://www.hackerrank.com/certificates/5e443dd464db',
+      },
+      {
+        title: 'Oracle Cloud Infrastructure 2025 Certified Generative AI Professional',
+        icon: Award,
+        source: 'Oracle',
+        link: 'https://catalog-education.oracle.com/pls/certview/sharebadge?id=0CB23D59103E21F1373FD7C553F7AEF08375180494340B53B56E01AAF8DC8B1C',
+      },
+      {
+        title: 'Microsoft Certified: Azure AI Fundamentals',
+        icon: Award,
+        source: 'Microsoft',
+        link: 'https://www.linkedin.com/in/tanushree-sarkar-32635624b/details/certifications/1717314846106/single-media-viewer',
+      },
+      {
+        title: 'Oracle Cloud Infrastructure 2025 Certified Data Science Professional',
+        icon: Award,
+        source: 'Oracle',
+        link: 'https://catalog-education.oracle.com/pls/certview/sharebadge?id=F2CD1F2D7295035437E2E8AEA82D3769CACD1F0F45C243C291802BEB2DD93717',
       },
       {
         title: 'Business Analysis & Process Management',
